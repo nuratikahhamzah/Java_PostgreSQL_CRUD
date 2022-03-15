@@ -10,6 +10,11 @@ public class Main {
 //        db.insert_row(conn, "Employee", "Hannah", "Singapore");
 //        db.insert_row(conn, "Employee", "Daniel", "Indonesia");
 //        db.insert_row(conn, "Employee", "Lily", "Thailand");
-        db.read_data(conn, "Employee");
+//        db.insert_row(conn, "Employee", "Nur", "Malaysia");
+//        db.update_name(conn, "Employee", "Laila", "Lily");
+//        db.insert_row(conn, "Employee", "Hannah", "Singapore");
+//        db.search_by_name(conn, "Employee", "Nur");
+        db.search_by_id(conn, "Employee", 2);
+//        db.read_data(conn, "Employee");
     }
 }
