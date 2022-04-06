@@ -133,4 +133,16 @@ public class DbFunctions {
         }
     }
 
+    public void delete_table (Connection conn, String table_name) {
+        Statement statement;
+        try{
+            String query = String.format("DROP table %s", table_name);
+            statement = conn.createStatement();
+            statement.executeUpdate(query);
+            System.out.println("Table deleted");
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+    }
+
 }

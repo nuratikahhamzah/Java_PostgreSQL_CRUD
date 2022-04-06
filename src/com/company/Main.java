@@ -15,9 +15,9 @@ public class Main {
 //        db.insert_row(conn, "Employee", "Hannah", "Singapore");
 //        db.search_by_name(conn, "Employee", "Nur");
 //        db.search_by_id(conn, "Employee", 2);
-
 //        db.delete_row_by_name(conn, "Employee","Hannah" );
-        db.delete_row_by_ID(conn, "Employee", 8);
-        db.read_data(conn, "Employee");
+//        db.delete_row_by_ID(conn, "Employee", 8);
+//        db.read_data(conn, "Employee");
+        db.delete_table(conn, "Employee");
     }
 }
